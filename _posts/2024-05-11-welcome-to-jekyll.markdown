@@ -1,29 +1,40 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-05-11 01:55:36 +0900
-categories: jekyll update
+title: "Introduction 🙂"
+date: 2024-05-08
+categories: ABOUT
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+📖 아주대학교 경영학부 4년제 학사 졸업
 
-`YEAR-MONTH-DAY-title.MARKUP`
+✏️ 스마트 웹&콘텐츠개발 과정 수료
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+🏢 웹 디자인, 퍼블리싱 경력 4년 차 (한국🇰🇷 : 4년 1개월 / 프랑스🇫🇷 : 7개월)
 
-Jekyll also offers powerful support for code snippets:
+💻 코드잇 프론트엔드 부트캠프 과정 수료
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+🖥️ 기술 스택 : React, TS, Next.js, html5, CSS3, SCSS
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## 온라인 마케팅 기획 & 웹 기획 - 웹 디자인 & 퍼블리싱을 거쳐 새로운 도전에 직면하고 있습니다.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+기획과 디자인, 화면 구현하면서 리액트와 같은 현대적인 프레임워크를 활용하여 더 나은 서비스 경험을 제공하기 위해 노력합니다.
+
+# 단계별 역량
+
+`웹 기획과 디자인 경험` : 사이트 기획에 있어 user flow의 이해와 심미적이고 직관적인 인터페이스를 최적화하기 위해 노력함.
+
+`퍼블리싱과 프론트 엔드 경험` : 실제 사용자가 마주하는 인터페이스를 더욱 디테일하게 접근하며 웹표준 준수와 SEO 중요성을 이해, 웹 사이투의 품질을 향상시키기 위해 주력함.
+
+# 포부
+
+웹 서비스와 관련된 경험을 토대로 다양한 부서와의 의견 수용에 유연하며, 문제해결이나 업데이트에 대한 빠른 피드백이 가능합니다.
+
+성실한 업무수행과 더불어 타인에 대한 이해와 윤리적 규범을 중요히 여겨 관계에 대하여 섬세히 접근하는 태도를 고수하고 있으며 능률적이고 생산적인 업무를 수행할 것을 약속드립니다.
+
+- 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
+- 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
+- 깃헙에서 더 자세히 알아볼 수 있어요. [Yumee GitHub]
+
+[Yumee Naver Blog]: https://blog.naver.com/hello_world_yum
+[Yumee Portfolio site]: https://github.com/jekyll/jekyll
+[Yumee GitHub]: https://github.com/yumi-kim-0827
