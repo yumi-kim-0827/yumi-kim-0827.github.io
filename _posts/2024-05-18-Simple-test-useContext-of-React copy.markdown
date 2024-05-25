@@ -19,8 +19,8 @@ React의 `useContext` 훅은 React 컴포넌트에서 전역으로 상태를 공
 ├─ <Child1>
 │
 ├─ <Child2>
-│ │
-│ └─ <Child22>
+   │
+   └─ <Child22>
 
 {% endhighlight %}
 
@@ -147,9 +147,11 @@ export default Child22;
 
 전역에서 count와 name값을 호출하고 손자인 Child22에서 함수를 호출하여 사용할 수 있습니다.
 
-- 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
-- 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
-- 깃헙에서 더 자세히 알아볼 수 있어요. [Yumee GitHub]
+> 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
+
+> 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
+
+> 깃헙에서 더 자세히 알아볼 수 있어요. [Yumee GitHub]
 
 [Yumee Naver Blog]: https://blog.naver.com/hello_world_yum
 [Yumee Portfolio site]: https://github.com/jekyll/jekyll

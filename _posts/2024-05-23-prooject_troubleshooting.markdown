@@ -30,9 +30,11 @@ element?.addEventListner('click', handleEvent);
 실습을 진행하기 위해 임시방편으로 해결했던 문제는 로그인 페이지의 기능과
 회원가입 페이지의 기능을 파일 분리를 통해 근본적으로 해결하도록 했습니다.
 
-- 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
-- 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
-- 깃헙에서 더 자세히 알아볼 수 있어요. [Yumee GitHub]
+> 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
+
+> 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
+
+> 깃헙에서 더 자세히 알아볼 수 있어요. [Yumee GitHub]
 
 [Yumee Naver Blog]: https://blog.naver.com/hello_world_yum
 [Yumee Portfolio site]: https://github.com/jekyll/jekyll
