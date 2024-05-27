@@ -23,7 +23,7 @@ email: yumee0827@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   항상 배움의 자세로
 baseurl: # the subpath of your site, e.g. /blog
-url: "https://yumi-kim-0827.github.io/" # http://localhost:4000/
+url: "http://localhost:4000/ " #https://yumi-kim-0827.github.io/
 github_username: yumi-kim-0827
 
 # Build settings

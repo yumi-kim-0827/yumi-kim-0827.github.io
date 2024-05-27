@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "React Tip for my code"
+title: "좋은 리액트 코드를 위한 팁 ... React Tip for my code"
 date: 2024-05-25
-categories: Go React
+categories: React
 ---
 
 🖥️

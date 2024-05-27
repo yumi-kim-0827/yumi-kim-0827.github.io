@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction 🙂"
+title: "소개 ... Introduction 🙂"
 date: 2024-05-08
 categories: ABOUT
 ---
@@ -13,7 +13,7 @@ categories: ABOUT
 
 💻 코드잇 프론트엔드 부트캠프 과정 수료
 
-🖥️ 기술 스택 : React, TS, Next.js, html5, CSS3, SCSS
+🖥️ 기술 스택 : React, Next.js, Typescript, html5, CSS3, SCSS
 
 ## 온라인 마케팅 기획 & 웹 기획 - 웹 디자인 & 퍼블리싱을 거쳐 새로운 도전에 직면하고 있습니다.
 

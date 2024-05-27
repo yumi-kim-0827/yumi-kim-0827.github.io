@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Error of not finding of node (javascript)"
+title: "트러블 슈팅 옵셔널 체이닝 해결 ... Error of not finding of node (javascript)"
 date: 2024-05-23
-categories: Go React
+categories: React
 ---
 
 🖥️

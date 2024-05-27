@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Simple test of useContext for understanding (React js)"
+title: "리액트 useContext 연습 ... Simple test of useContext for understanding (React js)"
 date: 2024-05-18
-categories: Go React
+categories: React
 ---
 
 🖥️
