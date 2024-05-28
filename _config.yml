@@ -21,7 +21,7 @@
 title: Crafting UX with frontend magic.
 email: yumee0827@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
-  항상 배움의 자세로
+  리액트 프론트엔드 퍼블리셔 웹사이트 개발 포트폴리오
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://yumi-kim-0827.github.io/" # http://localhost:4000/
 github_username: yumi-kim-0827
