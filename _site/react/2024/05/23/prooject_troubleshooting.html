@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>트러블 슈팅 옵셔널 체이닝 해결 … Error of not finding of node (javascript) | Crafting UX with frontend magic.</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="트러블 슈팅 옵셔널 체이닝 해결 … Error of not finding of node (javascript)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="🖥️" />
+<meta property="og:description" content="🖥️" />
+<link rel="canonical" href="http://localhost:4000/react/2024/05/23/prooject_troubleshooting.html" />
+<meta property="og:url" content="http://localhost:4000/react/2024/05/23/prooject_troubleshooting.html" />
+<meta property="og:site_name" content="Crafting UX with frontend magic." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-23T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="트러블 슈팅 옵셔널 체이닝 해결 … Error of not finding of node (javascript)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-23T00:00:00+09:00","datePublished":"2024-05-23T00:00:00+09:00","description":"🖥️","headline":"트러블 슈팅 옵셔널 체이닝 해결 … Error of not finding of node (javascript)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/react/2024/05/23/prooject_troubleshooting.html"},"url":"http://localhost:4000/react/2024/05/23/prooject_troubleshooting.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Crafting UX with frontend magic." /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Crafting UX with frontend magic.</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">트러블 슈팅 옵셔널 체이닝 해결 ... Error of not finding of node (javascript)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-05-23T00:00:00+09:00" itemprop="datePublished">May 23, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>🖥️</p>
+
+<p><code class="language-plaintext highlighter-rouge">이벤트 리스터의 오류와 해결</code></p>
+
+<p>근본적으로 회원가입 페이지와, 로그인 페이지의 기능을 하나의 스크립트 파일에 선언해서 생긴 문제입니다.
+로그인 페이지에 없는 회원 가입 페이지의 기능 중 해당이 안되는 eventlistner의 선언으로 properties of null이라는
+타입 에러가 생겼습니다.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Uncaught</span> <span class="no">TypeError</span><span class="p">:</span> <span class="no">Cannot</span> <span class="n">read</span> <span class="n">properties</span> <span class="n">of</span> <span class="n">null</span> <span class="p">(</span><span class="n">reading</span> <span class="s1">'addEventListener'</span><span class="p">)</span></code></pre></figure>
+
+<p>해석해보자면 addEventListner 특정 요소에 특정 행동이 포착되면 작동하게끔 만드는 함수에서
+특정 요소를 찾을 수 없어서 발생한 문제입니다.</p>
+
+<p>이 문제를 해결하기 위해 우선적으로 옵셔널 체이닝 기업으로 해당 요소를 읽을 수 있을 경우에면
+함수를 실행하도록 수정했습니다.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">element?</span><span class="p">.</span><span class="nf">addEventListner</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="n">handleEvent</span><span class="p">);</span></code></pre></figure>
+
+<p>실습을 진행하기 위해 임시방편으로 해결했던 문제는 로그인 페이지의 기능과
+회원가입 페이지의 기능을 파일 분리를 통해 근본적으로 해결하도록 했습니다.</p>
+
+<blockquote>
+  <p>코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. <a href="https://blog.naver.com/hello_world_yum">Yumee Naver Blog</a></p>
+</blockquote>
+
+<blockquote>
+  <p>저의 포트폴리오 사이트에요. <a href="https://github.com/jekyll/jekyll">Yumee Portfolio site</a></p>
+</blockquote>
+
+<blockquote>
+  <p>깃헙에서 더 자세히 알아볼 수 있어요. <a href="https://github.com/yumi-kim-0827">Yumee GitHub</a></p>
+</blockquote>
+
+
+  </div><a class="u-url" href="/react/2024/05/23/prooject_troubleshooting.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Crafting UX with frontend magic.</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Crafting UX with frontend magic.</li><li><a class="u-email" href="mailto:yumee0827@naver.com">yumee0827@naver.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/yumi-kim-0827"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">yumi-kim-0827</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>항상 배움의 자세로</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
