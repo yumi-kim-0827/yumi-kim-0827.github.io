@@ -146,9 +146,15 @@ export default Child22;
 {% endhighlight %}
 
 전역에서 count와 name값을 호출하고 손자인 Child22에서 함수를 호출하여 사용할 수 있습니다.
+<br/>
+<br/>
+<br/>
 
 ---
 
+<br/>
+<br/>
+<br/>
 > 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
 
 > 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
