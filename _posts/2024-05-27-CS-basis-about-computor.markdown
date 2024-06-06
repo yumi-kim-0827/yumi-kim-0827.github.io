@@ -34,6 +34,8 @@ categories: CS
 
 프로그래밍 언어를 통해 개발하여 컴퓨터가 이해하도록 합니다.
 
+---
+
 > 코딩 연습과 프로젝트 진행하면서 느낀 점들을 솔직하게 적었어요. [Yumee Naver Blog]
 
 > 저의 포트폴리오 사이트에요. [Yumee Portfolio site]
