@@ -14,5 +14,4 @@ Link . https://yumi-kim-0827.github.io/
 [Yumee GitHub]: https://github.com/yumi-kim-0827
 
 # STATE.
-
 © 2024 YUMEE KIM. Published with GitHub Pages
